@@ -20,6 +20,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
 import android.text.InputFilter;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -107,6 +108,7 @@ public class MainActivity extends AppCompatActivity {
                 // TODO: Send messages on click
 
                 // Clear input box
+                Log.d("Debug test");
                 mMessageEditText.setText("");
             }
         });
