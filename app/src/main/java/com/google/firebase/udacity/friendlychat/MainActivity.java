@@ -108,7 +108,7 @@ public class MainActivity extends AppCompatActivity {
                 // TODO: Send messages on click
 
                 // Clear input box
-                Log.d("Debug test");
+
                 mMessageEditText.setText("");
             }
         });
